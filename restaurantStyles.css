@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css?family=Amita);
+
+body {
+	background-color:  #230828;
+	font-family: 'Amita';
+}
+
+/* adjust all header fonts to Amita */
+h1, h2, h3, h4, h5, h6 {
+	font-family: Amita;
+}
+
+hr {
+	margin: 0px;
+	border-style: groove;
+	border-color: #FFFFFF;
+}
+
+.header {
+	color: #6579a5;
+	font-family: Amita;
+	text-align: center;
+}
+
+#logoSinEats {
+	width: 50px;
+	margin-top: 5px;	
+	vertical-align: middle;
+}
+
+/* Nav bar */
+.nav {
+	border-style: none;
+	text-align: center;
+	float: none;
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+a {
+    color: #dbd8d0;
+}
+
+a:link {
+	color: #db7c3d;
+}
+
+a:visited {
+	color: #5d0d63;
+}
+
+a:hover {
+	color: #242730;
+	font-weight: bolder;
+}
+
+a:active {
+	color: #242730;
+	text-decoration: none;
+}
+
+/* Setting the heights of the carousel slides */
+.item {
+	max-height: 250px;
+}
+
+.imgItem {
+	min-height: 200px;	
+}
+
+
+.item:after {
+	content:"";
+	display:block;
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	background: rgba(0,0,0,1);
+}
+
+
+@media (max-width: 992px) {
+	.item {
+		height: 250px;
+	}
+}
+
+@media (max-width: 768px) {
+	.item {
+		height: 200px;
+	}
+
+}
+
+@media (max-width: 544px) {
+	.carousel-caption h2, .carousel-caption h3 {
+		font-size: 130%;
+	}
+}
+
+div.footer {
+	color: #cccac3;
+	font-family: Amita;
+	text-align: center;
+}
