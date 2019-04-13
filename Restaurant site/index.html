@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<!--
+	Name:Adama Abramson
+	Date Created: 3/1/2019
+	Most recent revisions:
+-->	
+<html>
+<head>
+	<title>Sinsational Eats</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link href="restaurantStyles.css" rel="stylesheet" type="text/css" />
+	<style>
+	/* Pt 2: Set the homepage's background to a color other than white. */
+	div.main {
+		background-color: #230828;
+		color: #868993;
+		padding: 15px;
+		text-align: center;
+	}
+	
+	div.aboutMain {
+		float: none;
+		margin: auto;
+		
+	}
+	
+	#logoImage {
+		border: 2px solid #2A2C32;
+	}
+	</style>
+</head>
+<body>
+	<div class="header container-fluid">
+		<div class="row">
+			<h1><img id="logoSinEats" src="Images/Sineats.jpg" alt="Sinsational Eats logo" /> Sinsational Eats</h1>
+			<noscript>
+				<p style="color: red"> This site is best viewed with JavaScript enabled.</p>
+			</noscript>
+		</div>
+		<div class="row">
+			<hr />
+			<ul class="nav nav-tabs">
+				<li class="nav-item active">
+					<a class="nav-link" href="index.html"><span class="glyphicon glyphicon-home"></span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="menu.html">Menu</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="contactUs.html">Contact Us</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="jumbotron-fluid">
+		<hr />
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+			  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			  <li data-target="#myCarousel" data-slide-to="1"></li>
+			  <li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="item active">
+					<div class="carousel-caption">
+						<h2>Coming Soon</h2>
+						<h3>A new Sinsational location!</h3>
+					</div>
+				</div>
+				<div class="item">
+					<div class="carousel-caption">
+						<h2>We're rolling out our seasonal menu, with special options for this Spring!</h2>
+						
+					</div>
+				</div>
+				<div class="item">
+					<div class="carousel-caption">
+						<h2>Drink of the Month: SG Special Brew</h2>
+						
+					</div>
+				</div>
+			</div>
+			
+			<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#myCarousel" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+		<hr />
+	</div>
+	
+	<div class="main container-fluid">
+		<div class="row">
+			
+			<div class="col-md-5 aboutMain">
+			
+				<img id="logoImage" style="width: 100%;" src="Images/SinEats.jpg" alt="Sinsational Eats logo">
+				<h2 class="aboutUs">About Us</h2>
+			
+				<p class="aboutUs">
+					In the age of Fad diets, modern corsets,the perfect Crossfit body, there is a need for healthy comfort food now more that ever. Sinsational Eats is here to fill that void. No need to count calories here, we've got your back. With guilt free eating that's good and good for you. All natural ingredients made fresh daily from whole foods that are sifully delicious and delightful to your waistline. 
+				</p>
+			</div>
+		</div>
+	</div>
+	
+	<div class="footer container-fluid">
+		<div class="row">
+		<hr />
+			
+			<h4 id="addressPhone">876 Abe Ave, Louisville Ky 40203</br>
+				502.555.5309</h4>
+		
+		</div>
+	</div>
+	
+</body>
+</html>
+
